@@ -1,3 +1,14 @@
+.body{
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+
+}
+
 .maincontainer {
     position: absolute;
     top: 50%;
@@ -31,20 +42,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: helvetica;
-    font-weight:  500px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:  800px; 
+  
     
   }
   
   .thefront {
-    background: #F5F5F5;
-    color: #333;
+    background: linear-gradient(to bottom,#f3f3f3, #e0e1dd);
+    color: #adb5bd;
     transform: rotateY(180deg);
   }
   
   .theback {
-    background: #F5F5F5;
-    color: #333;
+    background: linear-gradient(to bottom,#F3F3F3, #e0e1dd);
+    color: #adb5bd;
   }
   
   .thecard:hover {
@@ -53,8 +65,9 @@
   }
   .copy-button{
    
+  }
 
-
+  .copy-button:hover{
 
 
 
