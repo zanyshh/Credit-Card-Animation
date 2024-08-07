@@ -1,3 +1,5 @@
+
+/*main page of website*/
 .body{
   background-color: #f8f9fa;
   display: flex;
@@ -9,6 +11,7 @@
 
 }
 
+/*main card container*/
 .maincontainer {
     position: absolute;
     top: 50%;
@@ -20,6 +23,7 @@
     
   }
   
+  /*card config main*/
   .thecard {
     position: absolute;
     width: 100%;
@@ -31,7 +35,7 @@
   
   
   }
-  
+  /*card config front and back*/
   .thefront, .theback {
     position: absolute;
     width: 100%;
@@ -48,25 +52,31 @@
     
   }
   
+  /*card front config color/tranform*/
   .thefront {
     background: linear-gradient(to bottom,#f3f3f3, #e0e1dd);
     color: #adb5bd;
     transform: rotateY(180deg);
   }
   
+  /*card back config color*/
   .theback {
     background: linear-gradient(to bottom,#F3F3F3, #e0e1dd);
     color: #adb5bd;
   }
   
+  /*card animation*/
   .thecard:hover {
     transform: rotateY(180deg)translateY(-9px);
     
   }
+
+/*copy button config*/
   .copy-button{
    
   }
 
+/*copy button hover animation*/
   .copy-button:hover{
 
 
