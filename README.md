@@ -1,6 +1,6 @@
 # Credit Card Flip Animation
 
-![card_image](Credit-Card-Animation/resources/card_photo.png)
+![card_image](./Credit-Card-Animation/resources/card_photo.png)
 
 ## Description
    A simple and captivating card animation written in html and CSS.
