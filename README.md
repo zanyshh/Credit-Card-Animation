@@ -1,6 +1,6 @@
 # Credit Card Flip Animation
 
-![card_image](./Credit-Card-Animation/resources/card_photo.png)
+![card_svg](Credit-Card-Animation/resources/card_photo_2.svg)
 <br><br/>
 
 ## Description
